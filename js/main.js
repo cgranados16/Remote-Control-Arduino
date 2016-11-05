@@ -38,6 +38,7 @@ $(function(){
     // portfolio filtering
 
     $("#projects").mixItUp();
+    $("#projects2").mixItUp();
 
     //fancybox
 
