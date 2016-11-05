@@ -76,7 +76,7 @@ body > section {
 }
 
 .section-title {
-  margin: 0 auto 85px;
+  margin: 0 auto 40px;
   width: 420px;
 }
 
@@ -190,6 +190,7 @@ width: 11px;
 
 .navigation .navbar-nav > li.current > a {
   color: #00C7FC;
+  
   border-bottom: 1px solid #00C7FC;
 }
 
@@ -469,6 +470,7 @@ width: 11px;
     float: left;
     overflow: hidden;
     width: 25%;
+
 }
 
 .plus {
@@ -520,6 +522,11 @@ figcaption.mask h3 {
 
 figcaption.mask span {
   color: #0FAED9;
+}
+
+img.animated-gif{
+  width: 100px;
+  height: auto;
 }
 
 /*============================================================
@@ -741,12 +748,14 @@ figcaption.mask span {
 ============================================================*/
 
 #footer {
+
     background-color: #121116;
-    padding: 115px 0 35px;
+    padding: 30px 0 30px;
 }
 
 .footer-logo {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
+
 }
 
 .footer-social {

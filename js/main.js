@@ -37,8 +37,16 @@ $(function(){
 
     // portfolio filtering
 
-    $("#projects").mixItUp();
-    $("#projects2").mixItUp();
+    $("#projects").mixItUp({
+         selectors: {
+           filter: '.filter1'
+         }
+    });
+    $("#projects2").mixItUp({
+     selectors: {
+       filter: '.filter2'
+     }
+   });
 
     //fancybox
 
